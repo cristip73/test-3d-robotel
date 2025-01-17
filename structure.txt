@@ -1,0 +1,23 @@
+.
+├── app
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components
+│   ├── ConditionsSection.tsx
+│   ├── FAQSection.tsx
+│   ├── FinalCTA.tsx
+│   ├── GuideSection.tsx
+│   ├── Header.tsx
+│   ├── HealthPrograms.tsx
+│   ├── HeroSection.tsx
+│   ├── PlanSection.tsx
+│   ├── ProblemPromiseSection.tsx
+│   ├── QuizCTA.tsx
+│   ├── TestimonialsSection.tsx
+│   └── ui
+│       ├── accordion.tsx
+│       ├── button.tsx
+│       ├── card.tsx
+│       ├── navigation-menu.tsx
+│       └── tabs.tsx
