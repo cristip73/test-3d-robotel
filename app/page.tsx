@@ -9,6 +9,8 @@ import FinalCTA from '@/components/FinalCTA'
 import { Header } from '@/components/Header'
 import ConditionsSection from '@/components/ConditionsSection'
 import HealthPrograms from '@/components/HealthPrograms'
+import { SplineSceneBasic } from '@/components/SplineSceneBasic'
+import { BackgroundBoxesDemo } from '@/components/BackgroundBoxesDemo'
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <Header />
       <main className="flex flex-col items-center justify-center">
         <HeroSection />
+        <BackgroundBoxesDemo />
+        <SplineSceneBasic />
         <ProblemPromiseSection />
         <GuideSection />
         <PlanSection />
