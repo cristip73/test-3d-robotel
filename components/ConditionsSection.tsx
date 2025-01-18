@@ -93,12 +93,16 @@ export default function ConditionsSection() {
           </h2>
           
           <Tabs defaultValue="diabetes" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 lg:grid-cols-4 mb-8">
+            <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 gap-2 mb-8">
               {conditions.map((condition) => (
                 <TabsTrigger 
                   key={condition.id} 
                   value={condition.id}
-                  className="text-center py-4 px-2 data-[state=active]:bg-primary data-[state=active]:text-white"
+                  className="text-center py-2 px-2 min-h-[50px] text-sm font-medium 
+                    bg-gray-50 hover:bg-gray-200 
+                    data-[state=active]:bg-primary
+                    border rounded-lg shadow-sm
+                    transition-all duration-200"
                 >
                   {condition.title}
                 </TabsTrigger>

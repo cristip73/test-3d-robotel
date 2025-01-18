@@ -31,16 +31,16 @@ const faqs = [
 export default function FAQSection() {
   return (
     <section className="py-16 bg-gray-100">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 w-[768px]">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-[#071913] mb-12 font-libre-baskerville">
           Întrebări frecvente
         </h2>
-        <div className="w-full max-w-2xl mx-auto">
+        <div className="mx-auto w-full max-w-4xl">
           <Accordion type="single" collapsible className="space-y-2">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`} className="bg-white px-4 rounded-lg border-none">
                 <AccordionTrigger className="text-[#071913] font-bold hover:no-underline">{faq.question}</AccordionTrigger>
-                <AccordionContent className="text-[#071913]">{faq.answer}</AccordionContent>
+                <AccordionContent className="text-[#071913] break-words overflow-wrap-anywhere">{faq.answer}</AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>

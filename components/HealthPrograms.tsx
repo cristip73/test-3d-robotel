@@ -26,40 +26,40 @@ export default function HealthPrograms() {
           </h2>
           
           <Tabs defaultValue="diabetes" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 lg:grid-cols-4 gap-2 mb-8 bg-transparent p-0 h-auto">
+            <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 gap-2 mb-8 bg-transparent p-0 h-auto">
               <TabsTrigger 
                 value="diabetes"
-                className="text-center py-4 px-3 min-h-[60px] text-sm md:text-base font-medium border rounded-lg shadow-sm
+                className="text-center py-2 px-2 min-h-[30px] text-sm font-medium border rounded-lg shadow-sm
                   data-[state=active]:bg-[var(--secondary)] data-[state=active]:text-white
                   data-[state=active]:border-[var(--secondary)]
-                  hover:bg-gray-50 transition-all duration-200"
+                  bg-gray-50 hover:bg-gray-200 transition-all duration-200"
               >
                 Diabet
               </TabsTrigger>
               <TabsTrigger 
                 value="hypertension"
-                className="text-center py-4 px-3 min-h-[60px] text-sm md:text-base font-medium border rounded-lg shadow-sm
+                className="text-center py-2 px-2 min-h-[30px] text-sm font-medium border rounded-lg shadow-sm
                   data-[state=active]:bg-[var(--secondary)] data-[state=active]:text-white
                   data-[state=active]:border-[var(--secondary)]
-                  hover:bg-gray-50 transition-all duration-200"
+                  bg-gray-50 hover:bg-gray-200 transition-all duration-200"
               >
                 Hipertensiune
               </TabsTrigger>
               <TabsTrigger 
                 value="prevention"
-                className="text-center py-4 px-3 min-h-[60px] text-sm md:text-base font-medium border rounded-lg shadow-sm
+                className="text-center py-2 px-2 min-h-[30px] text-sm font-medium border rounded-lg shadow-sm
                   data-[state=active]:bg-[var(--secondary)] data-[state=active]:text-white
                   data-[state=active]:border-[var(--secondary)]
-                  hover:bg-gray-50 transition-all duration-200"
+                  bg-gray-50 hover:bg-gray-200 transition-all duration-200"
               >
                 Prevenție
               </TabsTrigger>
               <TabsTrigger 
                 value="msk"
-                className="text-center py-4 px-3 min-h-[60px] text-sm md:text-base font-medium border rounded-lg shadow-sm
+                className="text-center py-2 px-2 min-h-[30px] text-sm font-medium border rounded-lg shadow-sm
                   data-[state=active]:bg-[var(--secondary)] data-[state=active]:text-white
                   data-[state=active]:border-[var(--secondary)]
-                  hover:bg-gray-50 transition-all duration-200"
+                  bg-gray-50 hover:bg-gray-200 transition-all duration-200"
               >
                 Dureri Articulare
               </TabsTrigger>

@@ -145,11 +145,11 @@ function Header() {
                                                 href={item.href}
                                                 className="flex justify-between items-center hover:bg-gray-50 px-4 py-2 rounded-md"
                                             >
-                                                <span className="text-lg">{item.title}</span>
+                                                <span>{item.title}</span>
                                                 <MoveRight className="w-4 h-4 stroke-1 text-muted-foreground" />
                                             </Link>
                                         ) : (
-                                            <p className="text-lg px-4">{item.title}</p>
+                                            <p className="px-4">{item.title}</p>
                                         )}
                                         {item.items &&
                                             item.items.map((subItem) => (
